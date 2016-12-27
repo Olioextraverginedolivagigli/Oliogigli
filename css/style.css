@@ -1,0 +1,165 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+  font-family: 'Cinzel', serif;
+}
+
+nav ul a,
+nav .brand-logo {
+  margin-top: 5px;
+  color: #9eb711;
+}
+
+nav .brand-logo {
+  font-family: 'Condiment', cursive;
+  font-size: 2.2em;
+}
+
+nav .nav-wrapper {
+  position: relative;
+  height: 100%;
+  padding: 0 30px;
+}
+
+.header {
+  font-size: 4em;
+  text-shadow: 0.5px 0 0 #9eb711, -0.5px 0 0 #9eb711, 0 0.5px 0 #9eb711, 0 -0.5px 0 #9eb711, 0.5px 0.5px #9eb711, -0.5px -0.5px 0 #9eb711, 0.5px -0.5px 0 #9eb711, -0.5px 0.5px 0 #9eb711;
+}
+
+.header-subtitle {
+  font-size: 1.6em;
+  text-shadow: 0.5px 0 0 #9eb711, -0.5px 0 0 #9eb711, 0 0.5px 0 #9eb711, 0 -0.5px 0 #9eb711, 0.5px 0.5px #9eb711, -0.5px -0.5px 0 #9eb711, 0.5px -0.5px 0 #9eb711, -0.5px 0.5px 0 #9eb711;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #9eb711;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: #F7EBE8;
+}
+
+.section-intro {
+  margin-top: 5%;
+  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  nav .nav-wrapper {
+    padding: 0 5px;
+  }
+
+  nav ul a,
+  nav .brand-logo {
+    font-size: 2em;
+  }
+  .header {
+  font-size: 2.8em;
+  }
+  .header-subtitle {
+  font-size: 1.5em;
+  }
+
+  #servizio .section-servizio {
+    padding-top: 15%;
+  }
+
+  #contatti .section-contatti {
+    padding-top: 8%;
+  }
+}
+
+@media only screen and (max-width : 380px) {
+  #index-banner .section {
+    top: 0;
+  }
+  nav .nav-wrapper {
+    padding: 0 5px;
+  }
+
+  nav ul a,
+  nav .brand-logo {
+    font-size: 1.6em;
+  }
+  .header {
+    font-size: 2.5em;
+  }
+  .header-subtitle {
+    font-size: 1.5em;
+  }
+
+  #servizio .section-servizio {
+    padding-top: 15%;
+  }
+
+  #contatti .section-contatti {
+    padding-top: 10%;
+  }
+}
+
+.section-servizio {
+  padding-top: 7%;
+}
+
+.section-contatti {
+  height: 100%;
+  width: 100%;
+  padding-top: 8%;
+}
+
+.form-mail {
+  margin-top: 5%;
+}
+
+.btn-invia {
+  margin-top: 3%;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.social-icon {
+  font-size: 2em;
+  color: #fff;
+  padding: 4% 
+}
+
+.social-icon:hover {
+  color: #9eb711;
+}
+
+.copy {
+  color: #fff;
+}
+
+.copy:hover {
+  color: #9eb711;
+}
